@@ -40,3 +40,21 @@ h1 {
     color: white;
     cursor: pointer;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+li:hover {
+    background-color: aliceblue;
+}
+
+li:last-child {
+    border-bottom: none;
+}
